@@ -27,7 +27,7 @@ html {
 
 .logo{
     float: left;
-    margin-top: 15px;
+    margin-top: 30px;
     margin-left: 15px;
     margin-bottom: 15px;
 
@@ -62,9 +62,6 @@ html {
 
 .secondaparte{
     float: right;
-    position: relative;
-    bottom: 50px;
-    right: 10px;
 }
 
 .intestazione{
@@ -165,9 +162,10 @@ hr{
 ul{
     list-style-type: none;
     margin: 20px;
+    display: inline-block;
 }
 
-li::before {
+.elenco li::before {
     color:blue; 
     content: '\f00c'; /* You should use \ and not /*/ 
     font-family: "Font Awesome 5 Free"; /* This is the correct font-family*/ 
@@ -186,4 +184,22 @@ li::before {
 .hr2{
     width: 100%;
     margin: 0;
+}
+
+.piano-enter span{
+    display: block;
+    float: none;
+    text-align: center;
+}
+
+/* .piano-enter > span{
+    display: block;
+    float: left;
+    text-align: center;
+} */
+
+.testo-enter > span{
+    float: left;
+    text-align: start;
+    display: block;
 }
