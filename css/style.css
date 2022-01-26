@@ -122,7 +122,6 @@ html {
 .secondapagina{
     margin: auto;
     margin-top: 100px;
-    border: 1px solid black;
     width: 80%;
 }
 
@@ -132,13 +131,25 @@ html {
 
 .radio{
     margin-top: 30px;
+    margin-left: 110px;
+    padding: 1em;
 }
 
 .piano{
-    width: 30%;
+    width: 20%;
     border: 1px solid black;
-    margin: 1%;
+    margin: 0.4%;
+    margin-left: 120px;
     display: inline-block;
+}
+
+.button-blu{
+    background-color: #0061FF;
+    margin-left: 10px;
+    padding: 1em;
+    height: 40px;
+    width: 200px;
+    color: white;
 }
 
 .piano span{
@@ -175,10 +186,12 @@ ul{
 }
 
 .piano-enter{
-    width: 100%;
+    width: 82.5%;
     border: 1px solid black;
     display: inline-block;
     text-align: center;
+    position: relative;
+    left:120px;
 }
 
 .hr2{
@@ -186,20 +199,46 @@ ul{
     margin: 0;
 }
 
-.piano-enter span{
+.testo-enter > span{
     display: block;
-    float: none;
-    text-align: center;
+    text-align: start;
 }
 
-/* .piano-enter > span{
-    display: block;
-    float: left;
-    text-align: center;
-} */
-
-.testo-enter > span{
-    float: left;
+.testo-enter > h3{
     text-align: start;
-    display: block;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.testo-enter > button{
+    float: right;
+    position: relative;
+    bottom: 110px;
+    right: 20px;
+}
+
+.imgpartner{
+    width: 500px;
+    position: relative;
+    top: 150px;
+    left: 300px;
+}
+
+.testo3{
+    width: 400px;
+    position: relative;
+    left: 900px;
+    bottom: 200px;
+}
+
+.testo3 > span{
+    margin: 0;
+    position: relative;
+    left: 15px;
+}
+
+.testo3 >h3{
+    font-size: 30px;
+    padding: 0.5em;
+    margin: 0;
 }
