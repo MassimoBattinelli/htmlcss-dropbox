@@ -121,3 +121,69 @@ html {
     top: 20px;
     font-size: 14px;
 }
+
+.secondapagina{
+    margin: auto;
+    margin-top: 100px;
+    border: 1px solid black;
+    width: 80%;
+}
+
+.secondapagina h1{
+    text-align: center;
+}
+
+.radio{
+    margin-top: 30px;
+}
+
+.piano{
+    width: 30%;
+    border: 1px solid black;
+    margin: 1%;
+    display: inline-block;
+}
+
+.piano span{
+    display: block;
+}
+
+.piano > span{
+    border-bottom: 1px solid black;
+    text-align: center;
+}
+
+.piano-testo > h3, span {
+    margin: 20px;
+}
+
+hr{
+    width: 30px;
+    margin: 10px;
+}
+
+ul{
+    list-style-type: none;
+    margin: 20px;
+}
+
+li::before {
+    color:blue; 
+    content: '\f00c'; /* You should use \ and not /*/ 
+    font-family: "Font Awesome 5 Free"; /* This is the correct font-family*/ 
+    font-style: normal; 
+    font-weight: 900; 
+    font-size:15px; 
+}
+
+.piano-enter{
+    width: 100%;
+    border: 1px solid black;
+    display: inline-block;
+    text-align: center;
+}
+
+.hr2{
+    width: 100%;
+    margin: 0;
+}
