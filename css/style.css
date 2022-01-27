@@ -83,7 +83,7 @@ html {
 }
 
 .titolo{
-    font-size: 60px;
+    font-size: 58px;
     position: relative;
     top: 30px;
     left: 40px;
@@ -186,12 +186,12 @@ ul{
 }
 
 .piano-enter{
-    width: 82.5%;
+    width: 81.5%;
     border: 1px solid black;
     display: inline-block;
     text-align: center;
     position: relative;
-    left:120px;
+    right:-120px;
 }
 
 .hr2{
