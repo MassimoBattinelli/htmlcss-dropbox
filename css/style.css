@@ -328,7 +328,6 @@ ul{
 .sestapagina{
     width: 90%;
     height: 300px;
-    border: 1px solid red;
     position: relative;
     top: 140px;
 }
@@ -336,7 +335,6 @@ ul{
 .primaparte{
     width: 310px;
     height: 300px;
-    border: 1px solid violet;
 }
 
 .designit{
@@ -407,7 +405,6 @@ ul{
 .parte2{
     width: 700px;
     height: 300px;
-    border: 1px solid yellow;
     position: relative;
     bottom: 300px;
     left: 300px;
