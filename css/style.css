@@ -242,3 +242,59 @@ ul{
     padding: 0.5em;
     margin: 0;
 }
+
+.quartapagina > h3{
+    font-size: 30px;
+    position: relative;
+    left: 300px;
+}
+
+.container > img{
+    width: 300px;
+}
+.container {
+    width: 300px;
+    display: inline-block;
+    margin: 10px;
+    position: relative;
+    left: 300px;
+}
+
+.container1 > img{
+    width: 300px;
+}
+
+.container1{
+    width: 300px;
+    display: inline-block;
+    margin: 10px;
+    position: relative;
+    top: 400px;
+    right: 25px;
+}
+
+.container2 > img{
+    width: 300px;
+}
+
+.container2{
+    width: 300px;
+    display: inline-block;
+    margin: 10px;
+    position: relative;
+    left: 620px;
+    bottom: 20px;
+}
+
+.container3 > img{
+    width: 300px;
+}
+
+.container3{
+    width: 300px;
+    display: inline-block;
+    margin: 10px;
+    position: relative;
+    bottom: 20px;
+    right: 30px;
+}
