@@ -344,7 +344,8 @@ ul{
     height: 150px;
     background-color:#A2D39B;
     display: inline-block;
-
+    position: relative;
+    bottom: 45px;
 }
 
 .designit > img{
@@ -352,5 +353,152 @@ ul{
     position: relative;
     top: 60px;
     left: 20px;
-    fill: honeydew;
+}
+
+.arizona{
+    width: 150px;
+    height: 150px;
+    background-color:#61082B;
+    display: inline-block;
+    position: relative;
+    right: 5px;
+}
+
+.arizona > img{
+    width: 100px;
+    position: relative;
+    top: 50px;
+    left: 30px;
+}
+
+.florida{
+    width: 150px;
+    height: 150px;
+    background-color:#0093CE;
+    display: inline-block;
+    position: relative;
+    bottom: 75px;
+}
+
+.florida > img{
+    width: 100px;
+    position: relative;
+    top: 60px;
+    left: 20px;
+}
+
+.topps{
+    width: 150px;
+    height: 150px;
+    background-color:#FF1C1C;
+    display: inline-block;
+    position: relative;
+    bottom: 47px;
+    right: 5px;
+}
+
+.topps > img{
+    width: 100px;
+    position: relative;
+    top: 60px;
+    left: 20px;
+}
+
+.parte2{
+    width: 700px;
+    height: 300px;
+    border: 1px solid yellow;
+    position: relative;
+    bottom: 300px;
+    left: 300px;
+    background-color: #F5F5F5;
+}
+
+.designit2{
+    width: 100px;
+    position: relative;
+    top: 30px;
+    left: 50px;
+}
+
+.hrparte2{
+    position: relative;
+    top: 40px;
+    left: 40px;
+}
+
+.testopt2{
+    width: 600px;
+    height: 100px;
+    position: relative;
+    top: 60px;
+    left: 50px;
+}
+
+.worldbycicle{
+    width: 150px;
+    height: 150px;
+    background-color:#FF1C1C;
+    display: inline-block;
+    position: relative;
+    bottom: 193px;
+    left: 700px;
+}
+
+.worldbycicle > img{
+    width: 100px;
+    position: relative;
+    top: 60px;
+    left: 20px;
+}
+
+.hearst{
+    width: 150px;
+    height: 150px;
+    background-color: #DEEBF4;
+    display: inline-block;
+    position: relative;
+    bottom: 211px;
+    left: 690px;
+}
+
+.hearst > img{
+    width: 100px;
+    position: relative;
+    top: 60px;
+    left: 20px;
+}
+
+.lonelyplanet{
+    width: 150px;
+    height: 150px;
+    background-color:#0D2481;
+    display: inline-block;
+    position: relative;
+    bottom: 30px;
+    left: 391px;
+}
+
+.lonelyplanet > img{
+    width: 100px;
+    position: relative;
+    top: 60px;
+    left: 20px;
+}
+
+.clearchannel{
+    width: 150px;
+    height: 150px;
+    background-color:#FFD830;
+    display: inline-block;
+    position: relative;
+    bottom: 13px;
+    left: 380px;
+}
+
+.clearchannel > img{
+    width: 100px;
+    position: relative;
+    top: 60px;
+    left: 20px;
 }
