@@ -243,6 +243,12 @@ ul{
     margin: 0;
 }
 
+.trovaunpartner{
+    position: relative;
+    top: 30px;
+    right: 150px;
+}
+
 .quartapagina > h3{
     font-size: 30px;
     position: relative;
@@ -297,4 +303,54 @@ ul{
     position: relative;
     bottom: 20px;
     right: 30px;
+}
+
+.quintapagina{
+    width: 420px;
+}
+
+.quintapagina > h3{
+    font-size: 30px;
+}
+
+.quintapagina > h3{
+    position: relative;
+    left: 300px;
+    top: 100px;
+}
+
+.scopridipiu{
+    position: relative;
+    top: 120px;
+    left: 300px;
+}
+
+.sestapagina{
+    width: 90%;
+    height: 300px;
+    border: 1px solid red;
+    position: relative;
+    top: 140px;
+}
+
+.primaparte{
+    width: 310px;
+    height: 300px;
+    border: 1px solid violet;
+}
+
+.designit{
+    width: 150px;
+    height: 150px;
+    background-color:#A2D39B;
+    display: inline-block;
+
+}
+
+.designit > img{
+    width: 100px;
+    position: relative;
+    top: 60px;
+    left: 20px;
+    fill: honeydew;
 }
