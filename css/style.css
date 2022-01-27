@@ -108,9 +108,20 @@ html {
     left: 60px;
 }
 
+.pulsinizia{
+    background-color: #0061FF;
+    color: white;
+    padding: 0.5em;
+    border-color: #0061FF;
+}
+
 .pulsante{
     position: relative;
     top: 20px;
+    background-color: #0061FF;
+    color: white;
+    padding: 0.5em;
+    border-color: #0061FF;
 }
 
 .annullain{
@@ -172,7 +183,8 @@ hr{
 
 ul{
     list-style-type: none;
-    margin: 20px;
+    margin: 10px;
+    padding: 0.5em;
     display: inline-block;
 }
 
@@ -247,6 +259,9 @@ ul{
     position: relative;
     top: 30px;
     right: 150px;
+    padding: 0.5em;
+    background-color: white;
+
 }
 
 .quartapagina > h3{
@@ -365,7 +380,7 @@ ul{
 .arizona > img{
     width: 100px;
     position: relative;
-    top: 50px;
+    top: 40px;
     left: 30px;
 }
 
@@ -398,8 +413,8 @@ ul{
 .topps > img{
     width: 100px;
     position: relative;
-    top: 60px;
-    left: 20px;
+    top: 45px;
+    left: 25px;
 }
 
 .parte2{
@@ -445,7 +460,7 @@ ul{
 .worldbycicle > img{
     width: 100px;
     position: relative;
-    top: 60px;
+    top: 50px;
     left: 20px;
 }
 
@@ -479,7 +494,7 @@ ul{
 .lonelyplanet > img{
     width: 100px;
     position: relative;
-    top: 60px;
+    top: 50px;
     left: 20px;
 }
 
@@ -496,6 +511,118 @@ ul{
 .clearchannel > img{
     width: 100px;
     position: relative;
-    top: 60px;
+    top: 45px;
     left: 20px;
+}
+
+.portadrop{
+    width: 1294px;
+    height: 200px;
+    background-color:#B4D0E7;
+    position: relative;
+    top: 135px;
+}
+
+.portadrop >h3{
+    font-size: 30px;
+    color: #61082B;
+    width: 400px;
+    position: relative;
+    top: 80px;
+    left: 200px;
+}
+
+.portadrop > button{
+    position: relative;
+    left: 800px;
+    top: 20px;
+    background-color: #FFFFFF;
+    border-color: #FFFFFF;
+}
+
+.domande{
+    width: 1300px;
+    height: 600px;
+    position: relative;
+    top: 100px;
+}
+
+.domande > h3{
+    font-size: 20px;
+    position: relative;
+    top: 100px;
+    left: 200px;
+}
+
+
+.domande > h4{
+    margin: 50px;
+    position: relative;
+    top: 120px;
+    left: 150px;
+}
+
+.freccia{
+    position: relative;
+    left: 220px;
+}
+
+.freccia1{
+    position: relative;
+    left: 215px;
+}
+
+.domande > div{
+    border: 0.5px solid black;
+    width: 910px;
+    position: relative;
+    left: 190px;
+    top: 140px;
+}
+
+.footer{
+    width: 1300px;
+    height: 400px;
+    background-color: black;
+    position: relative;
+    top: 250px;
+}
+
+.lista-footer{
+    color: white;
+    position: relative;
+    top: 100px;
+    left: 200px;
+    width: 200px;
+    height: 150px;
+    display: inline-block;
+    margin: 20px;
+}
+
+.lista-footer > h3{
+    position: relative;
+    left: 20px;
+}
+
+.lista-footer > li{
+    list-style-type: none;
+}
+
+.borderfoot{
+    width: 100px;
+    height: 1px;
+    background-color: white;
+    position: relative;
+    top: 140px;
+    left: 235px;
+}
+
+select{
+    margin:40px;
+    background: rgba(0,0,0,0);
+    color: lightgrey;
+    border-color: black;
+    position: relative;
+    top: 130px;
+    left: 190px;
 }
